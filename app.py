@@ -95,7 +95,7 @@ if uploaded_file:
     with prompt_col:
         text_prompt = st.text_input("Object to find:", "a billboard")
     with threshold_col:
-        confidence_threshold = st.slider("Object Detection Confidence", 0.05, 1.0, 0.1, 0.05)
+        confidence_threshold = st.slider("Confidence Threshold", 0.05, 1.0, 0.1, 0.05)
 
     original_image = Image.open(uploaded_file).convert("RGB")
 
