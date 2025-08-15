@@ -1,0 +1,10 @@
+streamlit==1.35.0
+transformers==4.41.2
+torch
+Pillow
+timm
+scipy
+einops
+numpy==1.26.4
+easyocr
+paddleocr
